@@ -1,6 +1,7 @@
 body{
     background-color: #efe9e4;
     color: #5e5343!important;
+    overflow-x: hidden;
 }
 
 .nav {
@@ -66,10 +67,18 @@ body{
     padding-right: 10vw;
 }
 
-.vid-porto {
-    
+.quote {
+    padding: 30vh 45vw 20vh 8vw;
+    background-image: url(img/bckg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+.poster-txt {
+    padding-top: 20vh;
+    padding-right: 10vw;
+}
 
 
 /* responsive */
@@ -98,6 +107,11 @@ body{
         margin-top: 10px;
     }
 
+    .bg-txt {
+        padding-top: 10vh;
+        padding-left: 3vw;
+    }
+
     #akdz, #waltz, #rm, #ds {
         margin-top: 5vh;
     }
@@ -110,6 +124,11 @@ body{
 
     .iklan-txt .p{
         padding-left: 0vw;
+        padding-right: 10vw;
+    }
+
+    .poster-txt {
+        padding-top: 3vh;
         padding-right: 10vw;
     }
 }
@@ -140,7 +159,7 @@ body{
     }
 
     .img-porto {
-        width: 70vw;
+        width: 80vw;
     }
 
 
